@@ -8,7 +8,9 @@ export default () => {
 
   return (
     <div>
-      <h1 className={styles.title}>Page 22222222dwwwwdd3bbsssssaaaa index</h1>
+      <h1 className={styles.title}>
+        Page 22222222d3333wwwwdd3bbsssssaaaa index
+      </h1>
     </div>
   );
 };
