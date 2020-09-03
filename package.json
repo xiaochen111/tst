@@ -20,7 +20,7 @@
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,less,md,json}": [
+    "src/**/*.{js,jsx,tsx,less,md,json}": [
       "prettier --write"
     ],
     "src/**/*.ts?(x)": [
