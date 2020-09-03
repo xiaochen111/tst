@@ -3,6 +3,11 @@ import styles from './index.less';
 
 
 export default () => {
+
+  const a = '1';
+
+  console.log('a', a);
+
   return (
     <div>
       <h1 className={styles.title}>Page index</h1>
