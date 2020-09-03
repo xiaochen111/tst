@@ -32,7 +32,7 @@ module.exports = {
     'no-nested-ternary': 0,
     'consistent-return': 0,
     '@typescript-eslint/no-unused-vars': 1,
-    'no-plusplus':0,
+    'no-plusplus': 0,
   },
   //https://stackoverflow.com/questions/61956555/why-is-typescript-eslint-parser-including-files-outside-of-those-configured-in
   ignorePatterns: ['.eslintrc.js', 'commitlint.config.js'],

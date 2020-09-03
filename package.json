@@ -15,17 +15,13 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged",
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-  },
+  
   "lint-staged": {
     "src/**/*.{js,jsx,tsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "src/**/*.ts?(x)": [
-      "prettier --parser=typescript --write"
+      "prettier -c --write",
+      "git add"
     ]
+    
   },
   "dependencies": {
     "@ant-design/pro-layout": "^5.0.12",
